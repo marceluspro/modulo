@@ -1,0 +1,20 @@
+{
+    "UserType": {
+        "item_id": "3733232",
+        "migration": [
+            "2022_03_23_091844_create_user_roles_table.php",
+            "2022_03_23_131340_AddDefaultRoleIntoUserRoleTable.php",
+            "2022_03_24_103919_AddRolePermissionForUserTypeModule.php",
+            "2022_09_27_174932_RenameListInUserTypePermission.php"
+        ],
+        "versions": [
+            "2.1.0"
+        ],
+        "url": [
+            "https://www.aorasoft.com/"
+        ],
+        "notes": [
+            "This is UserType module for InfixLMS. Thanks for using."
+        ]
+    }
+}

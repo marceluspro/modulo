@@ -1,0 +1,17 @@
+{
+    "name": "UserType",
+    "alias": "usertype",
+    "description": "Módulo de gestión de tipos de usuario para InfixEdu",
+    "keywords": ["infix", "infixedu", "user", "roles"],
+    "priority": 0,
+    "providers": [
+        "Modules\\UserType\\Providers\\UserTypeServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": [],
+    "minimumCoreVersion": "5.0",
+    "title": "User Type Management",
+    "version": "2.1.0",
+    "author": "Infix"
+}

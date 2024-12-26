@@ -1,0 +1,27 @@
+{
+    "name": "infix/usertype",
+    "description": "Módulo de gestión de tipos de usuario para InfixEdu",
+    "authors": [
+        {
+            "name": "Infix",
+            "email": "support@spondonit.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\UserType\\Providers\\UserTypeServiceProvider"
+            ],
+            "aliases": {}
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\UserType\\": ""
+        }
+    },
+    "require": {
+        "php": "^7.4|^8.0",
+        "laravel/framework": "^8.0"
+    }
+}
